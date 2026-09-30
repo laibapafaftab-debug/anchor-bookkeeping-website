@@ -60,17 +60,14 @@ No build step or dependencies required — open `index.html` directly in any bro
 
 ## Screenshots
 
-<p align="center">
-  <h3>Desktop View</h3>
-  <img src="screenshots/desktop.jpeg" alt="Desktop View" width="800"/>
-</p>
+**Desktop**
 
-<p align="center">
-  <h3>Tablet View</h3>
-  <img src="screenshots/tablet.jpeg" alt="Tablet View" width="600"/>
-</p>
+![Anchor & Co. desktop view](screenshots/Desktop.png)
 
-<p align="center">
-  <h3>Mobile View</h3>
-  <img src="screenshots/mobile.jpeg" alt="Mobile View" width="300"/>
-</p>
+**Tablet**
+
+![Anchor & Co. tablet view](screenshots/Tablet.png)
+
+**Mobile**
+
+![Anchor & Co. mobile view](screenshots/Mobile.png)
