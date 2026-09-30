@@ -50,13 +50,12 @@ No build step or dependencies required — open `index.html` directly in any bro
 
 1. Push this folder to a GitHub repository.
 2. Go to **Settings → Pages**, set the source to the `main` branch, root folder.
-3. The site will be live at `https://<username>.github.io/<repo-name>/`.
+3. The site will be live at `https://github.com/laibapafaftab-debug/anchor-bookkeeping-website/`.
 
 ## Notes
 
 - Colour palette (navy, gold, soft blue-grey) and typography were chosen to suit a finance/professional-services brand.
 - Respects `prefers-reduced-motion` and keeps visible keyboard focus states throughout.
-- Screenshots for **desktop, tablet, and mobile** views are included in `/screenshots`, as required by the task deliverables.
 - Screenshots for **desktop, tablet, and mobile** views are included in `/screenshots`, as required by the task deliverables.
 
 ## Screenshots
