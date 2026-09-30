@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" data-theme="light"> 
 <head>
@@ -35,7 +36,7 @@
   <!-- HOME / HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <div class="hero-copy">
+      <div class="hero-copy hero-anim">
         <p class="kicker">Bookkeeping, tax prep, payroll</p>
         <h1>The books, handled<br>— properly.</h1>
         <p class="hero-lede">Anchor & Co. keeps your numbers accurate and your filings on time, so you can spend your hours running the business instead of reconciling it.</p>
@@ -44,7 +45,7 @@
           <a href="#services" class="btn btn-text">See what we do</a>
         </div>
       </div>
-      <div class="hero-art" aria-hidden="true">
+      <div class="hero-art hero-anim hero-anim-2" aria-hidden="true">
         <svg viewBox="0 0 380 340" fill="none">
           <rect x="30" y="210" width="46" height="100" rx="4" fill="#DCE3E8"/>
           <rect x="96" y="160" width="46" height="150" rx="4" fill="#C9A227"/>
@@ -60,26 +61,26 @@
 
   <!-- SERVICES -->
   <section class="services" id="services">
-    <div class="section-head">
+    <div class="section-head reveal">
       <p class="section-tag">What we do</p>
       <h2>Three services, done properly</h2>
     </div>
     <div class="service-rows">
-      <div class="service-row">
+      <div class="service-row reveal reveal-stagger" style="--reveal-delay: 0;">
         <span class="service-index">01</span>
         <div>
           <h3>Monthly bookkeeping</h3>
           <p>Transactions categorized, accounts reconciled, and a clean set of books ready whenever you or your accountant need them.</p>
         </div>
       </div>
-      <div class="service-row">
+      <div class="service-row reveal reveal-stagger" style="--reveal-delay: 1;">
         <span class="service-index">02</span>
         <div>
           <h3>Tax preparation</h3>
           <p>Filings prepared and reviewed ahead of deadlines, with a plain-language summary of what you owe and why.</p>
         </div>
       </div>
-      <div class="service-row">
+      <div class="service-row reveal reveal-stagger" style="--reveal-delay: 2;">
         <span class="service-index">03</span>
         <div>
           <h3>Payroll management</h3>
@@ -92,12 +93,12 @@
   <!-- ABOUT -->
   <section class="about" id="about">
     <div class="about-inner">
-      <div>
+      <div class="reveal">
         <p class="section-tag">About Anchor & Co.</p>
         <h2>Built for owners who'd rather not think about spreadsheets.</h2>
         <p>Anchor & Co. works with small businesses who need their finances handled by someone who actually answers the phone. No jargon, no year-end surprises — just accurate books and a person you can reach.</p>
       </div>
-      <div class="about-stats">
+      <div class="about-stats reveal">
         <div class="stat">
           <span class="stat-num">120+</span>
           <span class="stat-label">Small businesses served</span>
@@ -112,33 +113,33 @@
 
   <!-- FAQ -->
   <section class="faq" id="faq">
-    <div class="section-head">
+    <div class="section-head reveal">
       <p class="section-tag">Questions</p>
       <h2>Before you reach out</h2>
     </div>
     <div class="faq-list" id="faqList">
-      <div class="faq-item">
+      <div class="faq-item reveal reveal-stagger" style="--reveal-delay: 0;">
         <button class="faq-q" aria-expanded="false">
           What size of business do you work with?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-a"><p>Mostly solo founders and teams under 20 people — businesses where the owner still touches the books directly.</p></div>
       </div>
-      <div class="faq-item">
+      <div class="faq-item reveal reveal-stagger" style="--reveal-delay: 1;">
         <button class="faq-q" aria-expanded="false">
           Do I need to switch accounting software?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-a"><p>No. We work inside whatever you already use, or help you pick something simpler if you're not using anything yet.</p></div>
       </div>
-      <div class="faq-item">
+      <div class="faq-item reveal reveal-stagger" style="--reveal-delay: 2;">
         <button class="faq-q" aria-expanded="false">
           What does the free review actually include?
           <span class="faq-icon">+</span>
         </button>
         <div class="faq-a"><p>A 20-minute call where we look at your current books and tell you honestly what's fine and what needs fixing — no obligation after.</p></div>
       </div>
-      <div class="faq-item">
+      <div class="faq-item reveal reveal-stagger" style="--reveal-delay: 3;">
         <button class="faq-q" aria-expanded="false">
           How is pricing structured?
           <span class="faq-icon">+</span>
@@ -151,12 +152,12 @@
   <!-- CONTACT -->
   <section class="contact" id="contact">
     <div class="contact-inner">
-      <div class="contact-copy">
+      <div class="contact-copy reveal">
         <p class="section-tag">Get in touch</p>
         <h2>Start with a free books review</h2>
         <p>Tell us a little about your business and we'll get back to you within a day.</p>
       </div>
-      <form class="contact-form" id="contactForm" novalidate>
+      <form class="contact-form reveal" id="contactForm" novalidate>
         <div class="field">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" placeholder="Your name">
