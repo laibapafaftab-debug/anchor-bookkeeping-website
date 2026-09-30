@@ -56,18 +56,18 @@ No build step or dependencies required — open `index.html` directly in any bro
 
 - Colour palette (navy, gold, soft blue-grey) and typography were chosen to suit a finance/professional-services brand.
 - Respects `prefers-reduced-motion` and keeps visible keyboard focus states throughout.
-- Screenshots for **desktop, tablet, and mobile** views are included in `/screenshots`, as required by the task deliverables.
+- Screenshots for **Desktop, Tablet, and Mobile** views are included in `/screenshots`, as required by the task deliverables.
 
 ## Screenshots
 
 **Desktop**
 
-![Anchor & Co. desktop view](screenshots/Desktop.png)
+![Anchor & Co. Desktop view](screenshots/Desktop.png)
 
 **Tablet**
 
-![Anchor & Co. tablet view](screenshots/Tablet.png)
+![Anchor & Co. Tablet view](screenshots/Tablet.png)
 
 **Mobile**
 
-![Anchor & Co. mobile view](screenshots/Mobile.png)
+![Anchor & Co. Mobile view](screenshots/Mobile.png)
