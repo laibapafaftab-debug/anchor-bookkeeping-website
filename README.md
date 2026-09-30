@@ -57,3 +57,19 @@ No build step or dependencies required — open `index.html` directly in any bro
 - Colour palette (navy, gold, soft blue-grey) and typography were chosen to suit a finance/professional-services brand.
 - Respects `prefers-reduced-motion` and keeps visible keyboard focus states throughout.
 - Screenshots for **desktop, tablet, and mobile** views are included in `/screenshots`, as required by the task deliverables.
+- ## Screenshots
+
+<p align="center">
+  <h3>Desktop View</h3>
+  <img src="screenshots/desktop.png" alt="Desktop View" width="800"/>
+</p>
+
+<p align="center">
+  <h3>Tablet View</h3>
+  <img src="screenshots/tablet.png" alt="Tablet View" width="600"/>
+</p>
+
+<p align="center">
+  <h3>Mobile View</h3>
+  <img src="screenshots/mobile.png" alt="Mobile View" width="300"/>
+</p>
