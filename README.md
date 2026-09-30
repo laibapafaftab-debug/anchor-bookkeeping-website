@@ -42,7 +42,7 @@ Anchor & Co. is a fictional small-business bookkeeping, tax preparation, and pay
 └── README.md
 ```
 
-## How to run
+## How to run  
 
 No build step or dependencies required — open `index.html` directly in any browser, or serve locally with `npx serve .`.
 
