@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anchor & Co. — Bookkeeping for small businesses</title>
+<meta name="description" content="Anchor & Co. handles bookkeeping, tax prep, and payroll so small business owners can focus on running their business.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">Anchor & Co.</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn btn-primary" id="openModalBtn">Book a consultation</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HOME / HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="kicker">Bookkeeping, tax prep, payroll</p>
+        <h1>The books, handled<br>— properly.</h1>
+        <p class="hero-lede">Anchor & Co. keeps your numbers accurate and your filings on time, so you can spend your hours running the business instead of reconciling it.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">Get a free review</a>
+          <a href="#services" class="btn btn-text">See what we do</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 380 340" fill="none">
+          <rect x="30" y="210" width="46" height="100" rx="4" fill="#DCE3E8"/>
+          <rect x="96" y="160" width="46" height="150" rx="4" fill="#C9A227"/>
+          <rect x="162" y="110" width="46" height="200" rx="4" fill="#12213B"/>
+          <rect x="228" y="180" width="46" height="130" rx="4" fill="#DCE3E8"/>
+          <rect x="294" y="70" width="46" height="240" rx="4" fill="#3C567E"/>
+          <path d="M30 200 L96 150 L162 100 L228 170 L294 60" stroke="#12213B" stroke-width="2" stroke-dasharray="4 5" fill="none"/>
+          <circle cx="294" cy="60" r="6" fill="#C9A227"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-head">
+      <p class="section-tag">What we do</p>
+      <h2>Three services, done properly</h2>
+    </div>
+    <div class="service-rows">
+      <div class="service-row">
+        <span class="service-index">01</span>
+        <div>
+          <h3>Monthly bookkeeping</h3>
+          <p>Transactions categorized, accounts reconciled, and a clean set of books ready whenever you or your accountant need them.</p>
+        </div>
+      </div>
+      <div class="service-row">
+        <span class="service-index">02</span>
+        <div>
+          <h3>Tax preparation</h3>
+          <p>Filings prepared and reviewed ahead of deadlines, with a plain-language summary of what you owe and why.</p>
+        </div>
+      </div>
+      <div class="service-row">
+        <span class="service-index">03</span>
+        <div>
+          <h3>Payroll management</h3>
+          <p>Employees and contractors paid accurately and on schedule, with the paperwork handled in the background.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div>
+        <p class="section-tag">About Anchor & Co.</p>
+        <h2>Built for owners who'd rather not think about spreadsheets.</h2>
+        <p>Anchor & Co. works with small businesses who need their finances handled by someone who actually answers the phone. No jargon, no year-end surprises — just accurate books and a person you can reach.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">120+</span>
+          <span class="stat-label">Small businesses served</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">Under 24h</span>
+          <span class="stat-label">Typical response time</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="section-head">
+      <p class="section-tag">Questions</p>
+      <h2>Before you reach out</h2>
+    </div>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          What size of business do you work with?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>Mostly solo founders and teams under 20 people — businesses where the owner still touches the books directly.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Do I need to switch accounting software?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>No. We work inside whatever you already use, or help you pick something simpler if you're not using anything yet.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          What does the free review actually include?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>A 20-minute call where we look at your current books and tell you honestly what's fine and what needs fixing — no obligation after.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          How is pricing structured?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a"><p>A flat monthly rate based on transaction volume, agreed upfront — no surprise hourly billing.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-copy">
+        <p class="section-tag">Get in touch</p>
+        <h2>Start with a free books review</h2>
+        <p>Tell us a little about your business and we'll get back to you within a day.</p>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name">
+          <span class="error" id="nameError"></span>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@business.com">
+          <span class="error" id="emailError"></span>
+        </div>
+        <div class="field">
+          <label for="business">Business type</label>
+          <input type="text" id="business" name="business" placeholder="e.g. cafe, consulting, retail">
+          <span class="error" id="businessError"></span>
+        </div>
+        <div class="field">
+          <label for="message">What do you need help with?</label>
+          <textarea id="message" name="message" rows="4" placeholder="A short note on your current setup"></textarea>
+          <span class="error" id="messageError"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Request a review</button>
+        <p class="form-success" id="formSuccess" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="logo">Anchor & Co.</span>
+    <p>Bookkeeping, tax prep, and payroll for small businesses.</p>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <h3 id="modalTitle">Book a free consultation</h3>
+    <p>A 20-minute call to look over your books — no cost, no obligation.</p>
+    <a href="#contact" class="btn btn-primary" id="modalCta">Choose a time</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
