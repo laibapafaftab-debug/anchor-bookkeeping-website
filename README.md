@@ -4,7 +4,7 @@
 **Domain:** Web Development — Front-End
 **Author:** Laiba Aftab
 
-**Live demo:** _add your GitHub Pages link here after deploying_
+**Live demo:** https://laibapafaftab-debug.github.io/anchor-bookkeeping-website/_
 
 ## Description
 
@@ -50,8 +50,8 @@ No build step or dependencies required — open `index.html` directly in any bro
 
 1. Push this folder to a GitHub repository.
 2. Go to **Settings → Pages**, set the source to the `main` branch, root folder.
-3. The site will be live at `https://github.com/laibapafaftab-debug/anchor-bookkeeping-website/`.
-
+3. The site will be live at `https://laibapafaftab-debug.github.io/anchor-bookkeeping-website/`.
+ 
 ## Notes
 
 - Colour palette (navy, gold, soft blue-grey) and typography were chosen to suit a finance/professional-services brand.
@@ -62,12 +62,12 @@ No build step or dependencies required — open `index.html` directly in any bro
 
 **Desktop**
 
-(<img width="1571" height="776" alt="Screenshot 2026-09-30 145158" src="https://github.com/user-attachments/assets/6f57d813-1af8-4304-b5b2-c58548163fb1" />)
+<img width="1571" height="776" alt="Screenshot 2026-09-30 145158" src="https://github.com/user-attachments/assets/6f57d813-1af8-4304-b5b2-c58548163fb1" />
 
 **Tablet**
 
-(<img width="956" height="631" alt="Screenshot 2026-09-30 145044" src="https://github.com/user-attachments/assets/dd1167bf-b7e5-46fd-845a-4f652833c3c5" />)
+<img width="956" height="631" alt="Screenshot 2026-09-30 145044" src="https://github.com/user-attachments/assets/dd1167bf-b7e5-46fd-845a-4f652833c3c5" />
 
 **Mobile**
 
-(<img width="535" height="1075" alt="WhatsApp Image 2026-09-30 at 2 48 43 AM" src="https://github.com/user-attachments/assets/3dea87fe-13c8-4052-9550-dbad2946105c" />)
+<img width="535" height="1075" alt="WhatsApp Image 2026-09-30 at 2 48 43 AM" src="https://github.com/user-attachments/assets/3dea87fe-13c8-4052-9550-dbad2946105c" />
