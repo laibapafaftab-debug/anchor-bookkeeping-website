@@ -62,15 +62,12 @@ No build step or dependencies required — open `index.html` directly in any bro
 
 **Desktop**
 
-![Anchor & Co. Desktop view](**<img width="1571" height="776" alt="Screenshot 2026-09-30 145158" src="https://github.com/user-attachments/assets/6f57d813-1af8-4304-b5b2-c58548163fb1" />
-**)
+(<img width="1571" height="776" alt="Screenshot 2026-09-30 145158" src="https://github.com/user-attachments/assets/6f57d813-1af8-4304-b5b2-c58548163fb1" />)
 
 **Tablet**
 
-![Anchor & Co. Tablet view](<img width="956" height="631" alt="Screenshot 2026-09-30 145044" src="https://github.com/user-attachments/assets/dd1167bf-b7e5-46fd-845a-4f652833c3c5" />
-**)
+(<img width="956" height="631" alt="Screenshot 2026-09-30 145044" src="https://github.com/user-attachments/assets/dd1167bf-b7e5-46fd-845a-4f652833c3c5" />)
 
 **Mobile**
 
-![Anchor & Co. Mobile view(<img width="535" height="1075" alt="WhatsApp Image 2026-09-30 at 2 48 43 AM" src="https://github.com/user-attachments/assets/3dea87fe-13c8-4052-9550-dbad2946105c" />
-**)
+(<img width="535" height="1075" alt="WhatsApp Image 2026-09-30 at 2 48 43 AM" src="https://github.com/user-attachments/assets/3dea87fe-13c8-4052-9550-dbad2946105c" />)
