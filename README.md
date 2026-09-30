@@ -72,4 +72,4 @@ No build step or dependencies required — open `index.html` directly in any bro
 <p align="center">
   <h3>Mobile View</h3>
   <img src="screenshots/mobile.png" alt="Mobile View" width="300"/>
-</p>
+</p>          
