@@ -1,11 +1,34 @@
 
+// ===== Dark/Light theme toggle =====
+const themeBtn = document.getElementById('themeBtn');
+const htmlEl = document.documentElement;
+const savedTheme = localStorage.getItem('theme') || 'light';
+
+if (savedTheme === 'dark') {
+  htmlEl.setAttribute('data-theme', 'dark');
+  themeBtn.textContent = '☀️';
+}
+
+themeBtn.addEventListener('click', () => {
+  const isDark = htmlEl.getAttribute('data-theme') === 'dark';
+  if (isDark) {
+    htmlEl.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+    themeBtn.textContent = '🌙';
+  } else {
+    htmlEl.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+    themeBtn.textContent = '☀️';
+  }
+});
+
 // ===== Mobile menu toggle =====
 const menuBtn = document.getElementById('menuBtn');
 const navLinks = document.getElementById('navLinks');
 
 menuBtn.addEventListener('click', () => {
   const isOpen = navLinks.classList.toggle('open');
-  menuBtn.setAttribute('aria-expanded', isOpen);   
+  menuBtn.setAttribute('aria-expanded', isOpen);
 });
 
 navLinks.querySelectorAll('a').forEach(link => {
